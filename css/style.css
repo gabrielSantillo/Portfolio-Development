@@ -68,6 +68,7 @@ img {
 .page-main-second-section {
   width: 80vw;
   margin-top: 20px;
+  z-index: 2;
 }
 .page-main-second-section > img {
   margin-top: 50px;
@@ -100,9 +101,10 @@ img {
 
 #page-main-third-section {
   display: grid;
-  width: 100vw;
+  width: 100%;
   background-color: rgb(42, 87, 130);
-  margin-top: 40px;
+  z-index: 1;
+  transform: translateY(-100px);
 }
 
 #page-main-third-section-first-div {
@@ -135,7 +137,7 @@ img {
 
 #page-main-fourth-section {
   background-color: rgb(42, 87, 130);
-  width: 100vw;
+  width: 100%;
   padding-top: 30px;
 }
 
