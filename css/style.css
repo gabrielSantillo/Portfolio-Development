@@ -388,4 +388,54 @@ img {
 
 #page-main-section-cards-article-light-blue {
   background-color: rgb(187, 213, 238);
+}
+
+#page-main-form {
+  background-color: rgb(187, 213, 238);
+  color: rgb(42, 87, 130);
+  display: grid;
+}
+
+#page-main-form-div {
+  margin: 20px 10vw;
+  display: grid;
+  row-gap: 10px;
+}
+
+#page-main-form-div-submit {
+  display: grid;
+  row-gap: 5px;
+  place-items: center;
+  text-align: center;
+}
+#page-main-form-div-submit > input {
+  border: none;
+  width: 80vw;
+  height: 35px;
+  padding: 5px;
+  border-radius: 5px;
+}
+#page-main-form-div-submit > button {
+  width: 80vw;
+  height: 45px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(42, 87, 130);
+  color: #fff;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+#page-footer {
+  height: 100px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-size: 0.8rem;
+  background-color: rgb(46, 46, 46);
+}
+#page-footer > p {
+  margin: 0 10vw;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
