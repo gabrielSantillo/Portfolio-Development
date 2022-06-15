@@ -90,11 +90,11 @@ img {
     height: 180px;
     color: $primary_color;
     background-color: #fff;
-    box-shadow: 12px 6px 6px rgb(208, 208, 208);
+    box-shadow: 6px 6px 6px rgb(208, 208, 208);
 
     >img {
         width: 50px;
-        margin-top: -120px;
+        transform: translateY(-80px);
     }
 
     >h3 {
@@ -115,7 +115,7 @@ img {
     width: 100%;
     background-color: $primary_color;
     z-index: 1;
-    transform: translateY(-100px);
+    margin-top: 20px;
 }
 
 #page-main-third-section-first-div {
@@ -124,7 +124,7 @@ img {
     text-align: start;
     display: grid;  
     row-gap: 10px;  
-    margin-top: 300px;
+    margin-top: 20px;
     color: #fff;
     margin-bottom: 20px;
 
@@ -362,8 +362,8 @@ img {
 #page-main-section-cards {
     display: grid;
     place-items: center;
-    background-color: $second_color;
-    height: 200px;
+    background-color: $primary_color;
+    height: 300px;
 
     >div {
        
